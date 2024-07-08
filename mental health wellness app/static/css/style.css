@@ -1,0 +1,77 @@
+/* Import Google Fonts */
+@import url('https://fonts.google.com/share?selection.family=Cute+Font');
+
+/* Global Reset and Body Styles */
+body {
+    font-family: 'Cute Font', sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333; /* Dark gray text color */
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3rem; /* Large heading size */
+    color: #4CAF50; /* Green heading color */
+    text-align: center; /* Center align heading */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+nav {
+    margin-bottom: 20px; /* Space below navigation */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Center align navigation links */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Space between navigation links */
+}
+
+nav ul li a {
+    position: relative;
+    font-size: 1.5rem; /* Navigation link font size */
+    color: #333; /* Text color for navigation links */
+    text-decoration: none;
+    transition: all 0.3s ease; /* Smooth transition for animation */
+}
+
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #4CAF50; /* Green bar color */
+    transform: scaleX(0);
+    transition: transform 0.3s ease; /* Smooth animation */
+}
+
+nav ul li a:hover::after {
+    transform: scaleX(1);
+}
+
+/* Section styles */
+section {
+    max-width: 800px; /* Max width for content */
+    margin: 0 auto; /* Center align content */
+    text-align: justify; /* Justify text for readability */
+}
+
+h2 {
+    font-size: 2.5rem; /* Large heading size */
+    color: #333; /* Dark gray heading color */
+    margin-bottom: 10px; /* Space below heading */
+}
+
+p {
+    font-size: 1.2rem; /* Medium paragraph text size */
+    line-height: 1.6; /* Improved readability with line height */
+    margin-bottom: 20px; /* Space below paragraphs */
+}
