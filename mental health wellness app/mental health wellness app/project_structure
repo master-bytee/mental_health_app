@@ -8,5 +8,6 @@ mental_health_app/
 ├── static/
 │   ├── css/
 │   │   └── style.css
+│    
 └── data/
     └── moods.json
