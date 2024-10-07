@@ -1,2 +1,2 @@
 # mental_health_app
-mental health aapp using tech for reaching out to people
+mental health app using tech for reaching out to people
